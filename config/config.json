@@ -1,7 +1,7 @@
 {
     "development" : {
         "PORT": 3000,
-        "MONGODB_URI" : "mongodb://localhost:27017/MainDB",
+        "MONGODB_URI" : "mongodb+srv://rowm30:<Ma1ya@nk3>@realmcluster.dodya.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
         "JWT_SECRET": "SECRET#123",
         "JWT_EXP": "10m"
 
