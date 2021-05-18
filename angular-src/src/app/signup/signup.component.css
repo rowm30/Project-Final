@@ -1,0 +1,154 @@
+.mk1{
+  background-image: url(../../assets/images/SignUpBackground.jpg);
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.mk2{
+  height: 750px;
+  width: 800px;
+  opacity: 0.9;
+  background-color: rgb(255, 255, 255);
+  margin: auto;
+  margin-top: 5%;
+  border-radius: 10px;
+}
+
+.mk3{
+  margin-bottom: 0%;
+  padding-bottom: 3%;
+}
+
+.mk4{
+  background-color: #ff0000;
+  width: 60%;
+  margin-left: 10%;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.mk5{
+  background-color: #07ff28;
+  padding: 15px 50px;
+text-transform: uppercase;
+width: 100%;
+font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 900;
+}
+.mk6{
+  background-color: #ff0707;
+  padding: 15px 50px;
+text-transform: uppercase;
+width: 100%;
+font-size: 13px;
+text-align: center;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 900;
+}
+
+.mk7{
+  margin-left: 10%;
+}
+
+.mk8{
+  margin-left: 5px;
+  font-family: 'Pacifico','cursive';
+  font-size: 25px;
+}
+
+
+h1{
+  z-index: 2;
+  opacity: 1;
+  font-family: 'Pacifico', cursive;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+input[type=text], select {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 20px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 60%;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.09);
+  
+}
+
+.invalid-textbox{
+  border-radius: 5px;
+  border: none;
+  border-color: #ff0000;
+  font-size: 20px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 60%;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.09);
+}
+
+input[type=password], select {
+  border-radius: 3px;
+  border: none;
+  color: #333333;
+  font-size: 20px;
+  height: 46px;
+  margin-bottom: 5px;
+  padding: 13px 12px;
+  width: 60%;
+  margin-left: 10%;
+  background-color: rgba(0, 0, 0, 0.09);
+  
+}
+
+input[type=text]:hover, select:hover{
+background-color: rgba(0,0,0,.16);
+}
+
+input[type=password]:hover, select:hover{
+  background-color: rgba(0,0,0,.16);
+  }
+
+input[type=submit]{
+background-color: #ffc107;
+border-color: #ffbf00;
+border-width: 0;
+color: #FFFFFF;
+display: block;
+margin: 0 auto;
+padding: 15px 50px;
+text-transform: uppercase;
+width: 100%;
+font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: 900;
+}
+
+input[type=submit]:hover {
+  background-color: #07ff28;
+  border-color: #00910c;
+  border-width: 0;
+  color: #FFFFFF;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 50px;
+  text-transform: uppercase;
+  width: 100%;
+  font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 900;
+  }
+  
+

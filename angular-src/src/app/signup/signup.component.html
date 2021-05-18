@@ -1,0 +1,68 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+<div class="mk1">
+  <h4>.</h4>
+  <div class="mk2">
+    <h1>Register Yourself </h1>
+    <form #signUpForm="ngForm" (ngSubmit)="signUpForm.valid && onSubmit(signUpForm)">
+      <input type="text" #fullName="ngModel" [(ngModel)]="userService.selectedUser.fullName" name="fullName"
+        placeholder="Full Name" style="font-weight: bold;" required>
+      <br>
+      <div class="mk4" *ngIf="signUpForm.submitted &&  !fullName.valid">
+        <p>Full Name is required</p>
+      </div>
+      <br>
+      <input type="text" #email="ngModel" [(ngModel)]="userService.selectedUser.email" name="email"
+        placeholder="Email ID" style="font-weight: bold;" required [pattern]="emailRegex">
+      <div class="mk4" *ngIf="signUpForm.submitted && email.errors">
+        <p *ngIf="email.errors.required">Email is required</p>
+        <p *ngIf="email.errors.pattern">Invalid Email</p>
+      </div>
+      <br>
+      <br>
+      <input type="password" #password="ngModel" [(ngModel)]="userService.selectedUser.password" name="password"
+        placeholder="Password" style="font-weight: bold;" minlength="8" required>
+      <div class="mk4" *ngIf="signUpForm.submitted && password.errors">
+        <p *ngIf="password.errors.required">Password is required</p>
+        <p *ngIf="password.errors.minlength">Password must contain more than 8 character</p>
+      </div>
+      <br>
+      <br>
+      <input type="text" #admissionNumber [(ngModel)]="userService.selectedUser.admissionNumber" name="admissionNumber"
+        id="admissionNumber" placeholder="Admission Number" style="font-weight: bold;" required>
+      <br>
+      <br>
+      <div>
+        <input id="male" type="radio" class="mk7" value="male" name="gender" ngModel required>
+        <label class="mk8" for="male">Male</label>
+     </div>
+   
+     <div>
+        <input id="female" type="radio" class="mk7" value="female" name="gender" ngModel required>
+        <label class="mk8" for="female">Female</label>
+     </div>
+   
+     <div *ngIf="signUpForm.submitted ">
+        <p>Please select either Gender</p>
+     </div>
+      <br>
+      <label class="my-1 mr-2" for="inlineFormCustomSelectPref"
+        style="padding-left: 80px;font-family: 'Pacifico',cursive;font-size: 30px;">Department</label>
+      <br>
+      <input type="text" #fullName="ngModel" [(ngModel)]="userService.selectedUser.department" name="department"
+        placeholder="Department" style="font-weight: bold;" required>
+      <br>
+      <br>
+      <input type="submit" value="Register">
+    </form>
+    <div class="mk5" *ngIf = "showSuccessMessage">
+      <h1>Account Registered</h1>
+    </div>
+  </div>
+  <div class="mk6" *ngIf = "serverErrorMessages">
+    {{serverErrorMessages}}
+  </div>
+  <div class="mk3">
+    <p>.</p>
+  </div>
+</div>

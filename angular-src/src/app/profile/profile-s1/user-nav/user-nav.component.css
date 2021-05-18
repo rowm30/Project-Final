@@ -1,0 +1,45 @@
+header .navbar-brand {
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 400;
+    color: #fff;
+}
+header .navbar .nav-link {
+    padding: 1.7rem 1rem!important;
+    outline: none!important;
+    font-size: .9rem;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #fff;
+}
+header .navbar .nav-link.active {
+    color: #ffc107;
+}
+
+.big-login:hover {
+    background-color: rgb(255, 208, 0);
+    color: #FFFFFF;
+    height: 46px;
+    margin-bottom: 5px;
+    padding: 13px 12px;
+    border-radius: 25px;
+}
+
+.btn {
+    font-size: 15px;
+    color:#ffc107;
+    text-transform: uppercase;
+    letter-spacing: .2em;
+    font-weight: 900;
+    width: 100px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+a.mk2{
+    color: red;
+  }
+
+  

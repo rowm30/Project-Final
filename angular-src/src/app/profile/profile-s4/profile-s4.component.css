@@ -1,0 +1,121 @@
+.block-33 {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .h-100 {
+    height: 100%!important;
+  }
+  
+  .mb-3, .my-3 {
+    margin-bottom: 1rem!important;
+  }
+  
+  .d-flex {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+  }
+  
+  *, :after, :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .owl-carousel.owl-drag .owl-item {
+    -ms-touch-action: none;
+    touch-action: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  .image {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 60px;
+    flex: 0 0 60px;
+    margin-right: 20px;
+    size: 20px;
+  }
+  
+  .mk4{
+    width: 70px;
+    height: 70px;
+  }
+  
+  
+  
+  
+  .mk1{
+      font-family: 'Dancing Script', cursive;
+      text-align: center;
+      
+  }
+  
+  .mk2{
+    border-radius: 50%;
+    background-color: #f1f1f1;
+    color: black;
+    margin-left: 48%;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .mk2:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .mk3:hover {
+    background-color: #9e7700;
+    color: #ffc107;
+  }
+  
+  .mk3{
+    border-radius: 50%;
+    background-color: #ffc107;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+  }
+  
+  .mk5{
+    font-family: 'Roboto Mono', monospace;
+      font-weight: 400;
+      font-size: .96rem;
+      line-height: 1.8;
+      color: #6c757d;
+  }
+  
+  .mk6{
+    background-color: #f8f9fa;
+  }
+  
+  h2{
+    font-family: 'Roboto Mono',monospace;
+  }
+  
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+    max-width: 70rem;
+    text-align: left;
+    padding-top: 2rem;
+    margin-left: 20%;
+    
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
