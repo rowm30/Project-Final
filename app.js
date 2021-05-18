@@ -35,6 +35,7 @@ app.use((err,req,res,next)=>{
 })
 
 app.use('/members',memberController);
+let port = process.env.PORT || 8080;
 
 // start server
-app.listen(process.env.PORT,  ()=> console.log(`Server started at port : ${process.env.PORT}`));
+app.listen(port,  ()=> console.log(`Server started at port : ${port}`));
